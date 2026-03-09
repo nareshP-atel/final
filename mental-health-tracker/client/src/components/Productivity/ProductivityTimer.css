@@ -1,0 +1,45 @@
+.productivity-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timer-display {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: monospace;
+    color: #2196F3;
+}
+
+.start-button,
+.end-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.end-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.start-button:hover {
+    background-color: #388E3C;
+}
+
+.end-button:hover {
+    background-color: #D32F2F;
+}

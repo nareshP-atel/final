@@ -1,0 +1,148 @@
+.journal-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.journal-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.journal-header h1 {
+    color: #495057;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.journal-header p {
+    color: #868e96;
+}
+
+.journal-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.journal-form {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.journal-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #495057;
+}
+
+.journal-textarea {
+    width: 100%;
+    min-height: 200px;
+    padding: 0.75rem;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #495057;
+    resize: vertical;
+}
+
+.form-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.mood-select {
+    padding: 0.75rem;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    color: #495057;
+    background: white;
+}
+
+.submit-button {
+    padding: 0.75rem 1.5rem;
+    background: #4dabf7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.submit-button:hover {
+    background: #339af0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(77, 171, 247, 0.2);
+}
+
+.entries-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.journal-entry {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.journal-entry h3 {
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.journal-entry p {
+    color: #495057;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.entry-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.mood-tag {
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.875rem;
+    background: #e9ecef;
+    color: #495057;
+}
+
+.entry-date {
+    color: #868e96;
+    font-size: 0.875rem;
+}
+
+.empty-journal {
+    text-align: center;
+    padding: 3rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.empty-journal i {
+    font-size: 3rem;
+    color: #4dabf7;
+    margin-bottom: 1rem;
+}
+
+.empty-journal p {
+    color: #868e96;
+}

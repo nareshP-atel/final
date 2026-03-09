@@ -1,0 +1,9 @@
+:root {
+  --text-primary: #333;
+  --text-secondary: #666;
+  --text-tertiary: #888;
+  --primary-color: #4f46e5;
+  --mood-color: #3b82f6;
+  --card-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  --card-gradient: linear-gradient(to right, #d8e7ff, #ffe9f2);
+}

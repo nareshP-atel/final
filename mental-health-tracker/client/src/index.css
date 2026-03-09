@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #6b8dd6;
+    --secondary-color: #8e37d7;
+    --text-primary: #2c3e50;
+    --text-secondary: #666;
+    --bg-light: #f8f9fa;
+    --border-color: #e0e0e0;
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+    --radius-sm: 8px;
+    --radius-md: 12px;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-primary);
+}
+
+button {
+    cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
